@@ -1,0 +1,105 @@
+@import "obshe";
+
+
+$acolor: rgb(0, 0, 100);
+$orqafon:rgb(136, 72, 72);
+
+
+
+.navbar{
+    background-color: $orqafon;
+    width: 100%;
+    height: 120px;
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(251, 255, 0);
+        text-align: center;
+    }
+    ul{
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li{
+        list-style: none;
+        margin-left: 170px;
+    }
+
+    ul li a{
+        text-decoration: none;
+        padding: 5px;
+        background-color: blue;
+        color: red;
+        font-family: cursive;
+    }
+
+    button{
+        padding: 8px 5px;
+        background-color: gold;
+        border:none;
+        border-radius: 10px;
+    }
+}
+
+main{
+    background-image: url(Безымянный.png);
+    h2{
+        text-align: center;
+        font-family: monospace;
+        color: $acolor;
+        font-size: 22px;
+    }
+    p{
+        width: 600px;
+        color: rgb(96, 96, 255);
+        text-align: center;
+        text-align: justify;
+        margin-left: 250px;
+        font-family: fantasy;
+    }
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(233, 233, 96) ;
+
+    .pasti{
+        width: 300px;
+        text-align: center;
+        background-color: darkorchid;
+        margin-left: 400px;
+        align-items: center;
+        padding-top: 20px;
+        border: 3px solid deeppink;
+        border-radius:8px;
+    }
+
+    select{
+        background-color: darkslategrey;
+        color: red;
+        padding: 5px;
+        border-radius: 10px;
+        font-family: cursive;
+        border: 2px solid deeppink;
+    }
+
+    input{
+        background-color:darkslategrey ;
+        padding: 4px;
+        border: 2px solid deeppink;
+        border-radius: 4px;
+        &::placeholder{
+            color:red;
+            font-family: cursive    ;
+        }
+    }
+    button{
+        color: red;
+        padding: 5px;
+        border: 2px solid deeppink;
+        background-color:darkslategrey;
+        font-family: cursive;
+        border-radius:5px ;
+        cursor: pointer;
+    }
+}
